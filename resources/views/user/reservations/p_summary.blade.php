@@ -242,19 +242,19 @@
           <tr>
             <td class=" fw-semibold">Allergies:</td>
             <td>
-              <p>{{ $reservations->allergies }}</p>
+              {{ $reservations->allergies }}
             </td>
           </tr>
           <tr>
             <td class=" fw-semibold">Special Request:</td>
             <td>
-              <p> {{ $reservations->special }}</p>
+               {{ $reservations->special }}
             </td>
           </tr>
           <tr>
             <td class=" fw-semibold">Other Concern:</td>
             <td>
-              <p>{{ $reservations->other }}</p>
+              {{ $reservations->other }}
             </td>
           </tr>
 
